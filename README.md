@@ -1,19 +1,34 @@
-# 💻 Desafio: ContaBanco (Trilha Java Básico - DIO)
+# 💻 Desafios DIO - Trilha Java Básico
 
-Este projeto foi desenvolvido como parte da **Trilha Java Básico** da [Digital Innovation One (DIO)](https://www.dio.me/). O desafio tem como objetivo praticar a sintaxe básica da linguagem Java, utilizando entrada de dados via terminal e manipulação de variáveis e strings.
+Este repositório contém a resolução de dois desafios propostos na Trilha Java Básico da Digital Innovation One (DIO).
 
-## 🧠 Descrição
+## ✅ Desafio 1: ContaBanco
 
-A aplicação simula a criação de uma conta bancária. O usuário informa os dados solicitados via terminal e, ao final, recebe uma mensagem personalizada com as informações da conta.
+Neste desafio, foi criado um programa Java que simula a criação de uma conta bancária. O sistema solicita dados básicos do usuário via terminal (como número da conta, agência, nome do cliente e saldo), e ao final exibe uma mensagem de confirmação com os dados informados.
 
-## ✨ Funcionalidades
+Este exercício tem como objetivo praticar a entrada de dados via terminal, declaração de variáveis e manipulação de strings.
 
-- Solicitação via terminal dos seguintes dados:
-  - **Número da Conta** (inteiro)
-  - **Agência** (texto)
-  - **Nome do Cliente** (texto)
-  - **Saldo** (decimal)
+---
 
-## 👨‍🏫 Autor do conteúdo original
+## ✅ Desafio 2: Controle de Fluxo
 
-- Gleyson Sampaio (Instrutor DIO)
+Neste desafio, o objetivo foi implementar um contador baseado em dois parâmetros inteiros inseridos pelo usuário. O sistema realiza uma contagem com base na diferença entre os dois números informados.
+
+Caso o primeiro número seja maior que o segundo, o sistema deve lançar uma exceção customizada. O exercício reforça o uso de estruturas de repetição (`for`), tratamento de exceções (`try`, `catch`) e criação de exceções personalizadas em Java.
+
+---
+
+## 📚 Conteúdo trabalhado
+
+- Leitura de dados com `Scanner`
+- Tipos primitivos e variáveis
+- Controle de fluxo (`if`, `for`)
+- Tratamento de exceções
+- Criação de exceção customizada (`extends Exception`)
+- Organização de código em pacotes
+
+---
+
+## 👨‍🏫 Base dos desafios criada por:
+
+**Gleyson Sampaio** – Instrutor da DIO
